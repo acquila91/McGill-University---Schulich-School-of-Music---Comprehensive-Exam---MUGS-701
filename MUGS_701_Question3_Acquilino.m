@@ -6,7 +6,7 @@ clear all
 close all
 clc
 
-filename = 'C:\Users\Camillo Acquilino\Desktop\McGill HP\Comp exam\Q3\Matlab\sounds\Bad6.wav';
+filename = 'C:\Users\Alberto\Desktop\McGill\Comp exam\Q3\sounds\Bad6.wav';
 [y_stereo, Fs] = audioread(filename);           % import audio file
 A4 = 442;                                       % reference pitch (Hz)
 
